@@ -1,35 +1,28 @@
-Expense Tracker (Python)
+💰 Expense Tracker (Python)
 
-This is a simple command-line based Expense Tracker written in Python.
-It allows users to add, view, and filter expenses, as well as calculate the total amount spent.
+A simple command-line Expense Tracker built with Python 🐍.
+Easily track, view, and filter your daily expenses!
 
-Features
+✨ Features
 
-Add Expense: Enter an amount and category to record a new expense.
+➕ Add Expense – Record an expense with amount & category.
 
-List Expenses: View all expenses that have been added.
+📋 List Expenses – View all your recorded expenses.
 
-Total Expenses: Calculate and display the total sum of all expenses.
+💵 Total Expenses – See how much you’ve spent in total.
 
-Filter by Category: View expenses belonging to a specific category.
+🏷️ Filter by Category – View expenses grouped by category.
 
-Exit Option: Safely exit the program.
+🚪 Exit – Quit the program anytime.
 
-Code Overview
+🛠️ Code Overview
 
-The program is divided into several functions:
+add_expense(expenses, amount, category) ➕ Add a new expense.
 
-add_expense(expenses, amount, category)
-Adds a new expense (with amount and category) to the list.
+print_expenses(expenses) 📋 Display all expenses.
 
-print_expenses(expenses)
-Prints all expenses in a formatted way.
+total_expenses(expenses) 💵 Calculate total amount spent.
 
-total_expenses(expenses)
-Calculates and returns the sum of all expenses.
+filter_expenses_by_category(expenses, category) 🏷️ Show expenses from a specific category.
 
-filter_expenses_by_category(expenses, category)
-Filters expenses by category and returns a filtered list.
-
-main()
-Runs the interactive menu loop for the user to interact with the tracker.
+main() 🖥️ Runs the interactive menu loop.
